@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Users = require('../models/users');
 const router = express.Router();
 
-// Obtener todos los usuarios
+
 router.get('/', async (_, res) => {
   try {
     const users = await Users.find({});
