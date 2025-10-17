@@ -1,6 +1,6 @@
 const express = require('express');
-const bcrypt = require('bcryptjs'); // Necesario para verificar la contraseña
-const Users = require('../models/users'); // Modelo de usuario
+const bcrypt = require('bcryptjs'); 
+const Users = require('../models/users'); 
 const router = express.Router();
 
 router.post('/login', async (req, res) => {
